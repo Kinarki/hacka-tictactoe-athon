@@ -45,7 +45,6 @@ $(document).ready(function () {
         game.setBoard(hard);
         currentGameLevel = hard;
     });
-
     //reset click handler
     $(".reset").click(function () {
         game.reset(currentGameLevel);
